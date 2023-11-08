@@ -1815,7 +1815,7 @@
     (uuid f5f004bb-14b7-48ae-a87b-075d67d8a51f)
   )
 
-  (label "Strobe" (at 53.34 86.36 0) (fields_autoplaced)
+  (label "Strobe_In" (at 53.34 86.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 02903836-f96c-46a7-9df7-c20c762c636b)
   )
@@ -1903,7 +1903,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9616f6a2-8264-4e4f-8d98-1c8bb5093d0c)
   )
-  (label "Brightness" (at 53.34 83.82 0) (fields_autoplaced)
+  (label "Brightness_In" (at 53.34 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a57d44dc-e40f-4f19-912a-bec757864327)
   )

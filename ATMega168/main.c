@@ -6,8 +6,8 @@
 
 #include "utils.h"
 
-#define STROBE 4
-#define RESET 5
+#define STROBE 6
+#define RESET 11
 #define DC_One A0
 #define DC_Two A2
 
@@ -23,12 +23,14 @@ enum DMX_CHANNELS { BRIGHTNESS = 1, RED = 2, GREEN = 3, BLUE = 4, DMX_STROBE = 5
 
 void setup();
 void loop();
+void collectFrequencies();
 void printFrequencies();
 void displayFrequencies();
 
 void setup()
 {
-
+  pinMode(STROBE, OUTPUT);
+  pinMode(RESET, OUTPUT);
   serialInit(9600);
 }
 
