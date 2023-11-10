@@ -12,7 +12,8 @@ typedef struct
   uint8_t name;
   char    port;
   uint8_t valid;
-  uint8_t pwm;
+  uint8_t adc;
+  uint8_t adcChannel;
   enum PIN_MODES mode;
 } pinMap_t;
 
